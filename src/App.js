@@ -1,6 +1,8 @@
+import GalleryNavigations from "./components/GalleryNavigation";
+
 function App() {
   return (
-    <h1>Hello from App</h1>
+    <GalleryNavigations galleries='test' nestor='nathan' />
   );
 }
 
