@@ -1,8 +1,9 @@
-import GalleryNavigations from "./components/GalleryNavigation";
+import GalleryNavigation from "./components/GalleryNavigation";
+import harvardArt from "./data/harvardArt";
 
 function App() {
   return (
-    <GalleryNavigations galleries='test' nestor='nathan' />
+    <GalleryNavigation galleries={harvardArt.records}/>
   );
 }
 
